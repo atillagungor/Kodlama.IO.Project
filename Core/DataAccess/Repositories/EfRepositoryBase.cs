@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Collections;
-using DataAccess.Abstract;
-using DataAccess.Dynamic;
-using DataAccess.Paging;
+using Core.Dynamic;
+using Core.Paging;
+using Core.Abstract;
 
-namespace DataAccess.Concretes.EntityFramework;
+namespace Core.Repositories.EntityFramework;
 
 public class EfRepositoryBase<TEntity, TEntityId, TContext>
     : IAsyncRepository<TEntity, TEntityId>, IRepository<TEntity, TEntityId>

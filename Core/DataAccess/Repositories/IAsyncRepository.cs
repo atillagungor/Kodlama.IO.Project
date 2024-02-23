@@ -1,10 +1,11 @@
-﻿using DataAccess.Dynamic;
-using DataAccess.Paging;
+﻿using Core.Abstract;
+using Core.Dynamic;
+using Core.Paging;
 using Entities.Abstract;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
 
-namespace DataAccess.Abstract;
+namespace Core.Repositories;
 
 public interface IAsyncRepository<TEntity, TEntityId> : IQuery<TEntity>
   where TEntity : Entity<TEntityId>

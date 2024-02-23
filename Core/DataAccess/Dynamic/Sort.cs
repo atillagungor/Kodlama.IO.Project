@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Dynamic;
+﻿namespace Core.Dynamic;
 
 public class Sort
 {

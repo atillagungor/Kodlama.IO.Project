@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Paging;
+﻿namespace Core.Paging;
 
 public interface IPaginate<T>
 {

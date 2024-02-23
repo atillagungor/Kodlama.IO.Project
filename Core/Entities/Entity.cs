@@ -1,5 +1,4 @@
-﻿
-namespace Entities.Abstract;
+﻿namespace Entities.Abstract;
 
 public class Entity<TId> : IEntityTimestamp
 {

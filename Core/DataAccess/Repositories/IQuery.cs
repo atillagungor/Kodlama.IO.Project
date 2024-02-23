@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Abstract;
+﻿namespace Core.Abstract;
 
 public interface IQuery<T>
 {
