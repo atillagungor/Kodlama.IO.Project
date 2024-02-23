@@ -1,4 +1,6 @@
-﻿using Entities.Concretes;
+﻿using Core.Abstract;
+using Core.Repositories;
+using Entities.Concretes;
 
 namespace DataAccess.Abstract;
 
