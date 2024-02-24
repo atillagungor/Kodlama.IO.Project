@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Entities.Concretes;
 using Business.Dtos.Request.Instructor;
 using Business.Dtos.Response.Instructor;
 

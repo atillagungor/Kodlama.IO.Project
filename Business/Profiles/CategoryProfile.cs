@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Entities.Concretes;
 using Business.Dtos.Request.Category;
 using Business.Dtos.Response.Category;
 using Core.Paging;
